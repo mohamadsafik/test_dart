@@ -19,7 +19,6 @@ void main() {
 
 // method untuk ubah foo, bar, foobar
 dynamic updateNumbers(int number) {
-  number = isPrime(number) ? 120 : number;
   if (number % 5 == 0 && number % 3 == 0) {
     return "FooBar";
   } else if (number % 3 == 0) {
